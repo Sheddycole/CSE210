@@ -20,7 +20,7 @@ def main():
 
     # create the main window
     lat_main = root
-    lat_main.title('Promise-emmanuel - Tic Tac-Toe')
+    lat_main.title('Ukeje Chinemerem - Tic Tac-Toe')
     # root.geometry('1200*710')
 
     # call functions that will draw the buttons and other functions necessary for the game to work properly
@@ -103,66 +103,66 @@ def game(frm_main):
         winner = False
 
         if b1["text"] == "X" and b2["text"] =="X" and b3["text"] == "X":
-            b1.config(bg="red")
-            b2.config(bg="red")
-            b3.config(bg="red")
+            b1.config(bg="blue")
+            b2.config(bg="blue")
+            b3.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
 
         elif b4["text"] == "X" and b5["text"] =="X" and b6["text"] == "X":
-            b4.config(bg="red")
-            b5.config(bg="red")
-            b6.config(bg="red")
+            b4.config(bg="blue")
+            b5.config(bg="blue")
+            b6.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
             
         elif b7["text"] == "X" and b8["text"] =="X" and b9["text"] == "X":
-            b7.config(bg="red")
-            b8.config(bg="red")
-            b9.config(bg="red")
+            b7.config(bg="blue")
+            b8.config(bg="blue")
+            b9.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")              
             disable_buttons()
 
         elif b1["text"] == "X" and b4["text"] =="X" and b7["text"] == "X":
-            b1.config(bg="red")
-            b4.config(bg="red")
-            b7.config(bg="red")
+            b1.config(bg="blue")
+            b4.config(bg="blue")
+            b7.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
 
         elif b2["text"] == "X" and b5["text"] =="X" and b8["text"] == "X":
-            b2.config(bg="red")
-            b5.config(bg="red")
-            b8.config(bg="red")
+            b2.config(bg="blue")
+            b5.config(bg="blue")
+            b8.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
             
         elif b3["text"] == "X" and b6["text"] =="X" and b9["text"] == "X":
-            b1.config(bg="red")
-            b2.config(bg="red")
-            b3.config(bg="red")
+            b1.config(bg="blue")
+            b2.config(bg="blue")
+            b3.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
             
         elif b1["text"] == "X" and b5["text"] =="X" and b9["text"] == "X":
-            b1.config(bg="red")
-            b5.config(bg="red")
-            b9.config(bg="red")
+            b1.config(bg="blue")
+            b5.config(bg="blue")
+            b9.config(bg="blue")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
             disable_buttons()
 
 
         elif b3["text"] == "X" and b5["text"] =="X" and b7["text"] == "X":
-                b3.config(bg="red")
-                b5.config(bg="red")
-                b7.config(bg="red")
+                b3.config(bg="blue")
+                b5.config(bg="blue")
+                b7.config(bg="blue")
                 winner = True
                 messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! X wins.")
                 disable_buttons()
