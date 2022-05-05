@@ -170,66 +170,66 @@ def game(frm_main):
             # check if the O's win
 
         elif b1["text"] == "O" and b2["text"] =="O" and b3["text"] == "O":
-            b1.config(bg="red")
-            b2.config(bg="red") 
-            b3.config(bg="red")
+            b1.config(bg="green")
+            b2.config(bg="green") 
+            b3.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
 
         elif b4["text"] == "O" and b5["text"] =="O" and b6["text"] == "O":
-            b4.config(bg="red")
-            b5.config(bg="red")
-            b6.config(bg="red")
+            b4.config(bg="green")
+            b5.config(bg="green")
+            b6.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
             
         elif b7["text"] == "O" and b8["text"] =="O" and b9["text"] == "O":
-            b7.config(bg="red")
-            b8.config(bg="red")
-            b9.config(bg="red")
+            b7.config(bg="green")
+            b8.config(bg="green")
+            b9.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
 
         elif b1["text"] == "O" and b4["text"] =="O" and b7["text"] == "O":
-            b1.config(bg="red")
-            b4.config(bg="red")
-            b7.config(bg="red")
+            b1.config(bg="green")
+            b4.config(bg="green")
+            b7.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
 
         elif b2["text"] == "O" and b5["text"] =="O" and b8["text"] == "O":
-            b2.config(bg="red")
-            b5.config(bg="red")
-            b8.config(bg="red")
+            b2.config(bg="green")
+            b5.config(bg="green")
+            b8.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
             
         elif b3["text"] == "O" and b6["text"] =="O" and b9["text"] == "O":
-            b3.config(bg="red")
-            b6.config(bg="red")
-            b9.config(bg="red")
+            b3.config(bg="green")
+            b6.config(bg="green")
+            b9.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
             
         elif b1["text"] == "O" and b5["text"] =="O" and b9["text"] == "O":
-            b1.config(bg="red")
-            b5.config(bg="red")
-            b9.config(bg="red")
+            b1.config(bg="green")
+            b5.config(bg="green")
+            b9.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
 
 
         elif b3["text"] == "O" and b5["text"] =="O" and b7["text"] == "O":
-            b3.config(bg="red")
-            b5.config(bg="red")
-            b7.config(bg="red")
+            b3.config(bg="green")
+            b5.config(bg="green")
+            b7.config(bg="green")
             winner = True
             messagebox.showinfo("Tic-Tac-Toe", "Congratulations!!! O wins.")
             disable_buttons()
@@ -262,3 +262,4 @@ def game(frm_main):
 # call the main function
 if __name__ == "__main__":
     main()
+    
